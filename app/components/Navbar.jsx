@@ -11,8 +11,9 @@ function Navbar() {
       <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
         <a href="#top">
           <Image
+            alt=""
             src={assets.logo}
-            className='w-28 alt="" cursor-pointer mr-14'
+            className="w-28 cursor-pointer mr-14"
           />
         </a>
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50">
@@ -59,7 +60,10 @@ function Navbar() {
         </div>
 
         {/* Mobile menu */}
-        <ul>
+        <ul className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-0  top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duaration-500">
+          <div>
+            <Image src={assets.close_black} alt="" className='w-5 cursor-pointer'/>
+          </div> 
           <li>
             <a className="font-Ovo" href="#top">
               Home

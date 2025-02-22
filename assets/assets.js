@@ -30,10 +30,11 @@ import menu_black from "./menu-black.png";
 import menu_white from "./menu-white.png";
 import close_black from "./close-black.png";
 import close_white from "./close-white.png";
-import web_icon from "./web-icon.png";
-import mobile_icon from "./mobile-icon.png";
-import ui_icon from "./ui-icon.png";
-import graphics_icon from "./graphics-icon.png";
+import problem_solving_icon from "./problem_solving_icon.png";
+import team_icon from "./team_icon.png";
+import technologies_icon from "./technologies_icon.png";
+import growing_icon from "./growing_icon.png";
+import combine_icon from "./combine_icon.png";
 import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
@@ -69,10 +70,11 @@ export const assets = {
   menu_white,
   close_black,
   close_white,
-  web_icon,
-  mobile_icon,
-  ui_icon,
-  graphics_icon,
+  problem_solving_icon,
+  team_icon,
+  technologies_icon,
+  growing_icon,
+  combine_icon,
   right_arrow,
   send_icon,
   right_arrow_bold,
@@ -84,53 +86,50 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "🎬 MyTube",
+    description: "Video streaming.",
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
-  },
-  {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
+    title: "🚀 Automation",
+    description: "Selenium testing.",
     bgImage: "/work-4.png",
+  },
+  {
+    title: "📰 KiddoNews",
+    description: "OpenAI news.",
+    bgImage: "/work-3.png",
   },
 ];
 
 export const serviceData = [
   {
-    icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
+    icon: assets.combine_icon,
+    title: "Combination ",
+    description: "I bring a combination of technical proficiency.",
   },
   {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    icon: assets.problem_solving_icon,
+    title: "Problem solving",
+    description: "I bring a problem-solving skills.",
+  },
+
+  {
+    icon: assets.technologies_icon,
+    title: "Technologies",
+    description: "Love learning new technologies",
+  },
+  {
+    icon: assets.team_icon,
+    title: "Teams",
     description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
+      "Enjoy collaborating with teams to build efficient and scalable software solutions.",
   },
   {
-    icon: assets.ui_icon,
-    title: "UI/UX design",
+    icon: assets.growing_icon,
+    title: "Growing",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
-  },
-  {
-    icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
-    link: "",
+      " I'm eager to contribute my skills and grow within a dynamic company.",
   },
 ];
 
@@ -140,7 +139,7 @@ export const infoList = [
     iconDark: assets.code_icon_dark,
     title: "Languages",
     description:
-      "HTML, CSS, JavaScript React Js, Next Js, C, C++, Pyhton, Java",
+      "HTML, CSS, JavaScript, React.js, Next.js, C, C++, Pyhton, Java",
   },
   {
     icon: assets.edu_icon,
@@ -160,7 +159,6 @@ export const toolsData = [
   assets.vscode,
   assets.firebase,
   assets.mongodb,
-  assets.figma,
   assets.git,
   assets.azure,
   assets.postman,
